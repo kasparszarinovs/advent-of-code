@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	input, err := ioutil.ReadFile("./01-input.txt")
+	input, err := ioutil.ReadFile("./input.txt")
 	if err != nil {
 		panic(err)
 	}
